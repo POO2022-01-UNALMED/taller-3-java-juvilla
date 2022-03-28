@@ -50,8 +50,8 @@ public class TV {
 	public static int getNumTV() {
 		return numTV;
 	}
-	public static void setNumTV(int NumTV) {
-		this.numTV=NumTV;
+	public static void setNumTV(int numTV) {
+		this.numTV=numTV;
 	}
 	public void turnOn() {
 		estado=true;
