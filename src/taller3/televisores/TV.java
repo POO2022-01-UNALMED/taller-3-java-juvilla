@@ -8,9 +8,9 @@ public class TV {
 	private int volumen=1;
 	private Control control;
 	public int numTV;
-	public TV(Marca marca,boolean estado){
-		this.marca=marca;
-		this.estado=estado;
+	public TV(Marca m,boolean e){
+		marca=m;
+		estado=e;
 		numTV++;
 	}
 	public Marca getmarca(){
