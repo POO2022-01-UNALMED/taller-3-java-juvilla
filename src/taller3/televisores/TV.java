@@ -31,19 +31,19 @@ public class TV {
 	public void setprecio(int precio) {
 		this.precio=precio;
 	}
-	public int getVolumen(){
+	public int getvolumen(){
 		return this.volumen;
 	}
-	public void setVolumen(int Volumen) {
-		if (Volumen<=7 && Volumen>=0 && this.estado==true) {
-			this.volumen=Volumen;
+	public void setvolumen(int volumen) {
+		if (volumen<=7 && volumen>=0 && this.estado==true) {
+			this.volumen=volumen;
 		}
 	}
 	public int getcanal(){
 		return this.canal;
 	}
 	public void setcanal(int canal) {
-		if (canal<=120 && canal>=0 && this.estado==true) {
+		if (canal<=120 && canal>=1 && this.estado==true) {
 			this.canal=canal;
 		}
 	}
@@ -72,14 +72,11 @@ public class TV {
 	public void volumenUp() {
 		if (this.estado==true && this.volumen<7){
 			this.volumen++;
-		};
+		}
 	}
 	public void volumenDown() {
 		if (this.estado==true && this.volumen>0){
 			this.volumen--;
-		};
+		}
 	}
-	public static void main(String[] args) {
-	}
-
 }
