@@ -47,10 +47,10 @@ public class TV {
 			this.canal=canal;
 		}
 	}
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
-	public void setNumTV(int NumTV) {
+	public static void setNumTV(int NumTV) {
 		this.numTV=NumTV;
 	}
 	public void turnOn() {
